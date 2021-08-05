@@ -14,7 +14,7 @@ Users can have a lot of difficulty finding the correct information when searchin
 The project can be used in a very wide variety of applications and in different languages since it builds the vocabulary from the document(s) to be searched. Could be very helpful for large amounts of data in knowledge bases, manuals, etc. For the first iterations of the project both the input document(s) and search parameters are entered directly in the code before running.
 
 
-<img src="https://github.com/backstaf/chapter-finder/blob/main/screenshot_chapter-finder.PNG" width="300">
+<img src="https://github.com/backstaf/chapter-finder/blob/main/screenshot_chapter-finder.PNG" width="600">
 
 ## Data sources and AI methods
 The data used for the AI finder is the input docs provided by the users themselves. The methods are nearest neighbor with Term Frequency Inverse Document Frequency (tf-idf)
