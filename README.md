@@ -3,7 +3,7 @@ Finds the nearest matching chapters (or paragraphs) to search terms of arbitrary
 
 ## Summary
 
-The project takes any Word document and finds the most appropriate article/chapter/paragraphs based on search terms or phrases. The project is submitted as the "Building AI" course project, and uses a tf-idf algorithm to find the closest matches.
+The project takes any Word document and finds the most appropriate article/chapter/paragraphs based on search terms or phrases. The project is submitted as the Building AI course project, and uses a tf-idf algorithm and nearest neighbor to find the closest matches. 
 
 ## Background
 
@@ -11,14 +11,10 @@ Users can have a lot of difficulty finding the correct information when searchin
 
 ## How is it used?
 
-The project can be used in a very wide variety of applications and in different languages since it builds the vocabulary from the document(s) to be searched. Could be very helpful for large amounts of data in knowledge bases, manuals, etc. The 
+The project can be used in a very wide variety of applications and in different languages since it builds the vocabulary from the document(s) to be searched. Could be very helpful for large amounts of data in knowledge bases, manuals, etc. For the first iterations of the project both the input document(s) and search parameters are entered directly in the code before running.
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
 
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
+<img src="https://github.com/backstaf/chapter-finder/blob/main/screenshot_chapter-finder.PNG" width="300">
 
 ## Data sources and AI methods
 The data used for the AI finder is the input docs provided by the users themselves. The methods are nearest neighbor with Term Frequency Inverse Document Frequency (tf-idf)
