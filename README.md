@@ -26,9 +26,9 @@ Since a lot of interesting data is found outside the bounds of Word documents, t
 
 Some of the next steps could be pretty straightforward:
 * Save the vocabulary and tf-idf data into files in order not to have to calculate it at every run, and implement a trigger for when to recalculate
-* Include handling tables in word docs
+* Include handling of tables in word docs
 * Generalize to other text file formats
-* Tamper with prioritizing chapters/paragraphs which have the exact search phrase, since they probably are more likely to be what the user wants
+* Tinker with prioritizing chapters/paragraphs which have the exact search phrase, since they probably are more likely to be what the user wants
 * Creating a nicer UI
 * Creating a way for the user to give the input search parameters on the fly without having to add it in the code base
 
